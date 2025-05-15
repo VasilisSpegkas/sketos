@@ -1629,7 +1629,7 @@ input, select, textarea {
 			.box.feature1 header.second {
 				position: relative;
 				display: inline-block;
-				text-align: left;
+				text-align: center;
 				margin: 0 auto;
 				white-space: normal;
 				left: 24px;
@@ -1845,7 +1845,7 @@ input, select, textarea {
 
 	#header-wrapper {
 		/* background: url("images/bg01.png"), url("../../images/header.jpg"); */
-		background-color: #072932;
+		background-color: #5e8e8f;
 		background-position: top left, center center;
 		background-size: auto, cover;
 		padding: 3em 0;
