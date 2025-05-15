@@ -1401,8 +1401,8 @@ input, select, textarea {
 
 		.image.featured {
 			display: block;
-			width: 100%;
-			margin: 0 0 2.5em 0;
+			width: 60%;
+			margin: 0 auto 2.5em auto;
 		}
 
 		.image.left {
@@ -1619,11 +1619,11 @@ input, select, textarea {
 		}
 
 			.box.feature1 header.first h2 {
-				font-size: 2.5em;
+				font-size: 1.7em;
 			}
 
 			.box.feature1 header.first p {
-				font-size: 1.2em;
+				font-size: 1.0em;
 			}
 
 			.box.feature1 header.second {
@@ -1631,7 +1631,7 @@ input, select, textarea {
 				display: inline-block;
 				text-align: left;
 				margin: 0 auto;
-				white-space: nowrap;
+				white-space: normal;
 				left: 24px;
 			}
 
@@ -1844,7 +1844,8 @@ input, select, textarea {
 /* Wrappers */
 
 	#header-wrapper {
-		background: url("images/bg01.png"), url("../../images/header.jpg");
+		/* background: url("images/bg01.png"), url("../../images/header.jpg"); */
+		background-color: #072932;
 		background-position: top left, center center;
 		background-size: auto, cover;
 		padding: 3em 0;
